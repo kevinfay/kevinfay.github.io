@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Gorgeous Math</title>
+  <subtitle>感受数学之美</subtitle>
+  <link href="/atom.xml" rel="self"/>
   
+  <link href="http://GorgeousMath.com/"/>
+  <updated>2017-01-01T04:38:54.715Z</updated>
+  <id>http://GorgeousMath.com/</id>
   
+  <author>
+    <name>Kevin</name>
     
-    <entry>
-      <title><![CDATA[2017展望]]></title>
-      <url>http://GorgeousMath.com/2016/12/31/MySun/</url>
-      <content type="html"><![CDATA[<p><excerpt in="" index="" |="" 首页摘要=""><br>写在2016的最后一天<br>希望2017每一天无论顺利与否<br>你都能云淡风轻<br><a id="more"></a></excerpt></p>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2017展望</title>
+    <link href="http://GorgeousMath.com/2016/12/31/MySun/"/>
+    <id>http://GorgeousMath.com/2016/12/31/MySun/</id>
+    <published>2016-12-31T04:59:59.000Z</published>
+    <updated>2017-01-01T04:38:54.715Z</updated>
+    
+    <content type="html"><![CDATA[<p><excerpt in="" index="" |="" 首页摘要=""><br>写在2016的最后一天<br>希望2017每一天无论顺利与否<br>你都能云淡风轻<br><a id="more"></a></excerpt></p>
 <the rest="" of="" contents="" |="" 余下全文="">
 
 <h2 id="写在2016最后一天"><a href="#写在2016最后一天" class="headerlink" title="写在2016最后一天"></a>写在2016最后一天</h2><p>很久很久之前的一天，我看了一本书，日本一个数学教育家的书，在前言中写到他的目标是让“让每个日本人都懂微积分”，想到如果中国人每个人数学素质都到这个程度，我的祖国该是多么的强大！心中一股热浪！</p>
@@ -24,12 +40,30 @@
 <h2 id="下面是对功能的测试"><a href="#下面是对功能的测试" class="headerlink" title="下面是对功能的测试"></a>下面是对功能的测试</h2><p>行间公式<br>$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$</p>
 <p>行内公式\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\)</p>
 </the>]]></content>
-    </entry>
     
-    <entry>
-      <title><![CDATA[hello-world]]></title>
-      <url>http://GorgeousMath.com/2016/12/27/hello-world/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+    <summary type="html">
+    
+      &lt;p&gt;&lt;Excerpt in index | 首页摘要&gt;&lt;br&gt;写在2016的最后一天&lt;br&gt;希望2017每一天无论顺利与否&lt;br&gt;你都能云淡风轻&lt;br&gt;
+    
+    </summary>
+    
+      <category term="趣谈" scheme="http://GorgeousMath.com/categories/%E8%B6%A3%E8%B0%88/"/>
+    
+    
+      <category term="作学问" scheme="http://GorgeousMath.com/tags/%E4%BD%9C%E5%AD%A6%E9%97%AE/"/>
+    
+      <category term="过日子" scheme="http://GorgeousMath.com/tags/%E8%BF%87%E6%97%A5%E5%AD%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hello-world</title>
+    <link href="http://GorgeousMath.com/2016/12/27/hello-world/"/>
+    <id>http://GorgeousMath.com/2016/12/27/hello-world/</id>
+    <published>2016-12-27T14:59:59.384Z</published>
+    <updated>2016-12-27T16:26:00.727Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
@@ -39,8 +73,14 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 ]]></content>
-    </entry>
     
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
   
-  
-</search>
+</feed>
